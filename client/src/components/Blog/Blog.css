@@ -1,0 +1,44 @@
+.blog_div {
+    display: flex;
+    margin: 5em;
+    box-shadow: 1.4px 2.9px 25.9px hsl(0deg 0% 0% / 0.46);
+    padding: 3em;
+    justify-content: space-between;
+}
+
+.blog_div_text {
+    margin-right: 4em;
+}
+
+.blog_div_text_link {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.blog_div_text p:last-child {
+    text-align: right;
+}
+
+.blog_div_img {
+    display: flex;
+    /* flex-grow: 1; */
+}
+
+
+.blog_div_img img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+
+}
+
+@media screen and (max-width:1023px) {
+
+    .blog_div_text {
+        margin: 0;
+    }
+
+    .blog_div_img {
+        display: none;
+    }
+}

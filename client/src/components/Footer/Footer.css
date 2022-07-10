@@ -1,0 +1,13 @@
+.footer_div {
+    background-color: black;
+    height: 5em;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.footer_div p {
+    font-family: sans-serif;
+    padding-top: 2em;
+}
